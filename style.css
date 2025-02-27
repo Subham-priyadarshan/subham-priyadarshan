@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROBZsOV_lhvC7eymRovQqQ4bbxGVZ_JfgBWA&s);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin-top: 10%;
+
+
+}
+
+.border {
+    border: 2px solid transparent;
+    border-radius: 3px;
+
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* box2*/
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-sec {
+    font-size: 1rem;
+    margin: 3px;
+}
+
+.add-icon {
+    display: flex;
+}
+
+/* box3*/
+.nav-search {
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.search-select {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    border: none;
+    background-color: #cccccc;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    color: #0f1111;
+    background-color: #febd68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+/*box4*/
+span {
+    font-size: 0.7rem;
+}
+
+.account {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/*box5*/
+
+.order {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/*box6*/
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/*panel*/
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    font-size: 14px;
+    align-items: center;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+
+}
+
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-all {}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hero-section {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/MA2025/GW/BAU/Unrec/PC/934044814._CB551384116_.jpg);
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    bottom: 25px;
+    height: 40px;
+    width: 90%;
+    margin-bottom: 25px;
+
+}
+
+.hero-message a {
+    color: #007185
+}
+
+/*shoping items section*/
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #c0c2c2;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-img1 {
+    height: 300px;
+    background-image: url(https://media.craftyartapp.com/uploadedFiles/thumb_file/02c8330029e07e2085c658729e183ce9b6dedccf1675417884.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-img2 {
+    height: 300px;
+    background-image: url(https://freedesignfile.com/upload/2016/02/Toothpaste-and-toothbrush-poster-vector-design-03.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-img3 {
+    height: 300px;
+    background-image: url(https://sofacovermaker.com/cdn/shop/collections/Original_519x509.jpg?v=1577891944);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-img4 {
+    height: 300px;
+    background-image: url(https://www.designinfo.in/wp-content/uploads/2024/01/Samsung-Galaxy-S24-Ultra-256GB-Titanium-Violet-3.webp);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-img5 {
+    height: 300px;
+    background-image: url(https://i.pinimg.com/736x/59/35/40/593540a76a9033b9260834bdedf60b38.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-img6 {
+    height: 300px;
+    background-image: url(https://m.media-amazon.com/images/I/71LIasLbD7L._AC_UF350,350_QL80_.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-img7 {
+    height: 300px;
+    background-image: url(https://m.media-amazon.com/images/I/71-Rnw0fnpL.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-img8 {
+    height: 300px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/2025/JanART/Curatedstotemobile/PC_CC_379x304._SY304_CB549541005_.jpg);
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: #007185;
+}
+
+.bottom-sign {
+    background-color: white;
+    color: black;
+    height: 90px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    margin-top: 0%;
+}
+
+.customer {
+    margin-top: none;
+}
+
+.sign button {
+    background-color: #febd68;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+}
+
+.bottom-sign a {
+    font-size: 10px;
+}
+
+.bottom-sign p {
+    font-size: 20px;
+}
+
+
+
+/*footer*/
+
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 15px;
+    color: #dddddd;
+}
